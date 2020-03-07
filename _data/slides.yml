@@ -1,0 +1,24 @@
+- count: 1
+  filename: image_01.jpg
+  icon: sl-small-car-oil
+  title: MAKE YOUR CAR LAST LONGER
+  titleLink: "#"
+  description: Free oil change with repair service of $300 or greater.
+  buttonText: Some Text Here
+  buttonLink: "#"
+- count: 2
+  filename: image_02.jpg
+  icon: sl-small-car
+  title: FIND THE TIRES THAT MATCH YOUR NEEDS
+  titleLink: "#"
+  description: Take advantage of our lowest prices which automatically include coupons.
+  buttonText: Some Text Here
+  buttonLink: "#"
+- count: 3
+  filename: image_03.jpg
+  icon: sl-small-car-checklist
+  title: EXPERT TECHNICIANS, COMPETITIVE PRICES
+  titleLink: "#"
+  description: We are committed to earning your trust by providing the expertise and value you expect.
+  buttonText: Some Text Here
+  buttonLink: "#"

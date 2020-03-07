@@ -1,0 +1,12 @@
+- name: Home
+  path: "#top"
+  section_id: home
+- name: Services
+  path: "#services"
+  section_id: services
+- name: Our Team
+  path: "#our-team"
+  section_id: our-team
+- name: Contact
+  path: "#contact"
+  section_id: contact

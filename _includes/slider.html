@@ -1,0 +1,66 @@
+<div class="revolution-slider-container">
+    <div class="revolution-slider" data-version="5.4.8" style="display: none;">
+        <ul style="display: none;">
+            {% for slide in site.data.slides %}
+                <!-- SLIDE {{slide.count}} -->
+                <li data-transition="fade" data-masterspeed="500" data-slotamount="1" data-delay="6000">
+                    <!-- MAIN IMAGE -->
+                    <img src="images/slider/{{slide.filename}}" alt="slidebg{{slide.count}}" data-bgfit="cover">
+                    <!-- LAYERS -->
+                    <!-- LAYER 01 -->
+                    <div class="tp-caption"
+                        data-frames='[{"delay":500,"speed":1200,"from":"y:-40;o:0;","ease":"easeInOutExpo"},{"delay":"wait","speed":500,"to":"o:0;","ease":"easeInOutExpo"}]'
+                        data-x="center"
+                        data-y="97"
+                        >
+                        <!--data-start="500"
+                        data-transform_in="x:0;y:-40;o:0;s:1200;e:easeInOutExpo;"
+                        data-transform_out="x:0;y:0;o:0;s:500;e:easeInOutExpo;"-->
+                        
+                        <div class="hexagon"><div class="{{slide.icon}}"></div></div>
+                    </div>
+                    <!-- LAYER 02 -->
+                    <div class="tp-caption"
+                        data-frames='[{"delay":900,"speed":1200,"from":"y:40;o:0;","ease":"easeInOutExpo"},{"delay":"wait","speed":500,"to":"o:0;","ease":"easeInOutExpo"}]'
+                        data-x="center"
+                        data-y="262"
+                        >
+                        <!--data-start="900"
+                        data-transform_in="x:0;y:40;o:0;s:1200;e:easeInOutExpo;"
+                        data-transform_out="x:0;y:0;o:0;s:500;e:easeInOutExpo;"-->
+                        
+                        <h2><a target="_top" href="{{slide.titleLink}}" title="">{{slide.title}}</a></h2>
+                    </div>
+                    <!-- LAYER 03 -->
+                    <div class="tp-caption"
+                        data-frames='[{"delay":1100,"speed":1200,"from":"y:40;o:0;","ease":"easeInOutExpo"},{"delay":"wait","speed":500,"to":"o:0;","ease":"easeInOutExpo"}]'
+                        data-x="center"
+                        data-y="343"
+                        >
+                        <!--data-start="1100"
+                        data-transform_in="x:0;y:40;o:0;s:1200;e:easeInOutExpo;"
+                        data-transform_out="x:0;y:0;o:0;s:500;e:easeInOutExpo;"-->
+                        
+                        <p class="description">{{slide.description}}</p>
+                    </div>
+                    <!-- LAYER 04 -->
+                    <div class="tp-caption"
+                        data-frames='[{"delay":1300,"speed":1200,"from":"y:40;o:0;","ease":"easeInOutExpo"},{"delay":"wait","speed":500,"to":"o:0;","ease":"easeInOutExpo"}]'
+                        data-x="center"
+                        data-y="441"
+                        >
+                        <!--data-start="1300"
+                        data-transform_in="x:0;y:40;o:0;s:1200;e:easeInOutExpo;"
+                        data-transform_out="x:0;y:0;o:0;s:500;e:easeInOutExpo;"-->
+                        
+                        <div class="align-center">
+                            <a target="_top" class="more simple" href="{{slide.buttonLink}}" title="{{slide.buttonText}}"><span>{{slide.buttonText}}</span></a>
+                        </div>
+                    </div>
+                    <!-- / -->
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+<!--/-->
