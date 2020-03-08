@@ -3797,6 +3797,8 @@ div.pp_default .pp_close:hover
 	font-size: 21px;
 	text-align: center;
 	margin-top: 0;
+	font-weight: 400;
+	padding: 0 20%;
 }
 /* --- slider revolution label --- */
 .tp-revslider-mainul .tp-parallax-wrap, .tp-revslider-mainul .tp-loop-wrap, .tp-revslider-mainul .tp-mask-wrap
@@ -3969,8 +3971,8 @@ body.lock-position
 @font-face {
 	font-family: "Open Sans";
 	src: url('/fonts/open-sans/OpenSans-LightItalic.ttf');
-	font-weight: 300;
 	font-style: italic;
+	font-weight: 300;
 }
 
 @font-face {
@@ -3982,6 +3984,7 @@ body.lock-position
 @font-face {
 	font-family: "Open Sans";
 	src: url('/fonts/open-sans/OpenSans-Italic.ttf');
+	font-style: italic;
 	font-weight: 400;
 }
 
@@ -4021,4 +4024,10 @@ span.gc-cs-link:hover {
 
 .footer-row__contact li {
 	padding-left: 0;
+	font-size: 130%;
+}
+
+.footer-row__contact li.phone {
+	font-size: 200%;
+	margin: 1% 0;
 }
