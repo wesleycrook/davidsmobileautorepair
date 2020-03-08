@@ -4,9 +4,9 @@
 - name: Services
   path: "#services"
   section_id: services
-- name: Our Team
-  path: "#our-team"
-  section_id: our-team
+- name: Testimonials
+  path: "#testimonials"
+  section_id: testimonials
 - name: Contact
   path: "#contact"
   section_id: contact
