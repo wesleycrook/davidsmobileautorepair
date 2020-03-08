@@ -4025,6 +4025,7 @@ span.gc-cs-link:hover {
 .footer-row__contact li {
 	padding-left: 0;
 	font-size: 130%;
+	font-style: italic;
 }
 
 .footer-row__contact li.phone {
