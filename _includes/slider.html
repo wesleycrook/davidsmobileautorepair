@@ -7,7 +7,7 @@
                     <!-- MAIN IMAGE -->
                     <img src="images/slider/{{slide.filename}}" alt="slidebg{{slide.count}}" data-bgfit="cover">
                     <!-- LAYERS -->
-                    <!-- LAYER 01 -->
+                    <!-- LAYER 01 - IMAGE-->
                     <div class="tp-caption"
                         data-frames='[{"delay":500,"speed":1200,"from":"y:-40;o:0;","ease":"easeInOutExpo"},{"delay":"wait","speed":500,"to":"o:0;","ease":"easeInOutExpo"}]'
                         data-x="center"
@@ -16,10 +16,9 @@
                         <!--data-start="500"
                         data-transform_in="x:0;y:-40;o:0;s:1200;e:easeInOutExpo;"
                         data-transform_out="x:0;y:0;o:0;s:500;e:easeInOutExpo;"-->
-                        
                         <div class="hexagon"><div class="{{slide.icon}}"></div></div>
                     </div>
-                    <!-- LAYER 02 -->
+                    <!-- LAYER 02 - TITLE -->
                     <div class="tp-caption"
                         data-frames='[{"delay":900,"speed":1200,"from":"y:40;o:0;","ease":"easeInOutExpo"},{"delay":"wait","speed":500,"to":"o:0;","ease":"easeInOutExpo"}]'
                         data-x="center"
@@ -28,10 +27,9 @@
                         <!--data-start="900"
                         data-transform_in="x:0;y:40;o:0;s:1200;e:easeInOutExpo;"
                         data-transform_out="x:0;y:0;o:0;s:500;e:easeInOutExpo;"-->
-                        
-                        <h2><a target="_top" href="{{slide.titleLink}}" title="">{{slide.title}}</a></h2>
+                        <h2>{{slide.title}}</h2>
                     </div>
-                    <!-- LAYER 03 -->
+                    <!-- LAYER 03 - CAPTION -->
                     <div class="tp-caption"
                         data-frames='[{"delay":1100,"speed":1200,"from":"y:40;o:0;","ease":"easeInOutExpo"},{"delay":"wait","speed":500,"to":"o:0;","ease":"easeInOutExpo"}]'
                         data-x="center"
@@ -40,24 +38,22 @@
                         <!--data-start="1100"
                         data-transform_in="x:0;y:40;o:0;s:1200;e:easeInOutExpo;"
                         data-transform_out="x:0;y:0;o:0;s:500;e:easeInOutExpo;"-->
-                        
                         <p class="description">{{slide.description}}</p>
                     </div>
-                    <!-- LAYER 04 -->
-                    <div class="tp-caption"
+                    <!-- LAYER 04 - BUTTON -->
+                    <!-- <div class="tp-caption"
                         data-frames='[{"delay":1300,"speed":1200,"from":"y:40;o:0;","ease":"easeInOutExpo"},{"delay":"wait","speed":500,"to":"o:0;","ease":"easeInOutExpo"}]'
                         data-x="center"
                         data-y="441"
-                        >
+                        > -->
                         <!--data-start="1300"
                         data-transform_in="x:0;y:40;o:0;s:1200;e:easeInOutExpo;"
                         data-transform_out="x:0;y:0;o:0;s:500;e:easeInOutExpo;"-->
                         
-                        <div class="align-center">
+                        <!-- <div class="align-center">
                             <a target="_top" class="more simple" href="{{slide.buttonLink}}" title="{{slide.buttonText}}"><span>{{slide.buttonText}}</span></a>
                         </div>
-                    </div>
-                    <!-- / -->
+                    </div> -->
                 </li>
             {% endfor %}
         </ul>

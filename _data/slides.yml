@@ -1,24 +1,15 @@
 - count: 1
+  filename: image_02.jpg
+  icon: sl-small-truck-tow
+  title: CAN'T DRIVE IT TO THE SHOP?
+  description: We provide mechanical repairs to your vehicle on site...home or business. We come to you so you don't have to worry about taking it to the shop.
+- count: 2
   filename: image_01.jpg
   icon: sl-small-car-oil
-  title: MAKE YOUR CAR LAST LONGER
-  titleLink: "#"
-  description: Free oil change with repair service of $300 or greater.
-  buttonText: Some Text Here
-  buttonLink: "#"
-- count: 2
-  filename: image_02.jpg
-  icon: sl-small-car
-  title: FIND THE TIRES THAT MATCH YOUR NEEDS
-  titleLink: "#"
-  description: Take advantage of our lowest prices which automatically include coupons.
-  buttonText: Some Text Here
-  buttonLink: "#"
+  title: GET YOUR VEHICLE FIXED RIGHT
+  description: With over 40 years of experience, we'll fix your vehicle right the first time.
 - count: 3
   filename: image_03.jpg
   icon: sl-small-car-checklist
   title: EXPERT TECHNICIANS, COMPETITIVE PRICES
-  titleLink: "#"
   description: We are committed to earning your trust by providing the expertise and value you expect.
-  buttonText: Some Text Here
-  buttonLink: "#"
