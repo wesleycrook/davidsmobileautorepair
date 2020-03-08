@@ -859,9 +859,7 @@ body.overlay .background-overlay
 	z-index: 1;
 }
 /* --- page --- */
-.theme-page
-{
-}
+
 .page-margin-top
 {
 	margin-top: 50px;
@@ -1656,7 +1654,7 @@ div.team-box
 {
 	font-family: 'Open Sans';
 	font-style: italic;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 21px;
 	color: #FFF;
 	line-height: 36px;
@@ -3959,4 +3957,61 @@ body.lock-position
 	overflow: hidden;
 	width: 100%;
 	height: 100%;
+}
+
+
+/* ----- CUSTOM ----- */
+@font-face {
+	font-family: "Open Sans";
+	src: url('/fonts/open-sans/OpenSans-Light.ttf');
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url('/fonts/open-sans/OpenSans-LightItalic.ttf');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url('/fonts/open-sans/OpenSans-Regular.ttf');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url('/fonts/open-sans/OpenSans-Italic.ttf');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url('/fonts/open-sans/OpenSans-SemiBold.ttf');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url('/fonts/open-sans/OpenSans-Bold.ttf');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url('/fonts/open-sans/OpenSans-ExtraBold.ttf');
+	font-weight: 800;
+}
+
+span.gc-cs-link {
+	color: #1E69B8;
+}
+
+.footer-row span.gc-cs-link {
+	color: white;
+}
+
+span.gc-cs-link:hover {
+	text-decoration: hover;
 }

@@ -1227,13 +1227,11 @@ jQuery(document).ready(function($){
 				{
 					if(menu_position<topOfWindow)
 					{
-						//$(this).addClass("move");
 						if(!$("#cs-sticky-clone").length)
 							$(this).after($(this).clone().attr("id", "cs-sticky-clone").addClass("move"));
 					}
 					else
 					{
-						//$(this).removeClass("move");
 						$("#cs-sticky-clone").remove();
 					}
 				}

@@ -1,0 +1,17 @@
+<div class="row full-width padding-top-70 padding-bottom-66 parallax parallax-1">	
+    <div class="row testimonials-container">
+        <a href="#" class="slider-control left template-arrow-left-1"></a>
+        <ul class="testimonials-list">
+            {% for testimonial in site.data.testimonials %}
+                <li>
+                    <div class="hexagon small">
+                        <div class="sl-small-pen"></div>
+                    </div>
+                    <p>"{{testimonial.quote}}"</p>
+                    <h6>{{testimonial.customerName}}</h6>
+                </li>
+            {% endfor %}
+        </ul>
+        <a href="#" class="slider-control right template-arrow-left-1"></a>
+    </div>
+</div>
