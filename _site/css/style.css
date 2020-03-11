@@ -2969,7 +2969,8 @@ li.template-bullet:before
 }
 .contact-details li a
 {
-	color: #999;
+	color: red;
+	text-decoration: underline;
 }
 .contact-details li:first-child
 {
