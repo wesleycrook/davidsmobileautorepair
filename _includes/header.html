@@ -1,61 +1,30 @@
-<!-- Top Bar -->
-<div class="header-top-bar-container clearfix">
-  <div class="header-top-bar">
-    <ul class="contact-details clearfix">
-      <li class="template-phone">
-        <a id="header__phone" href="tel:5555555555">555-555-5555</a>
-      </li>
-      <li class="template-mail">
-        <a id="header__email" href="mailto:email@example.com">email@example.com</a>
-      </li>
-      <li class="template-clock">
-        Mon - Fri: 7:30am - 5:30pm, Sat. by appointment
-      </li>
-    </ul>
-  </div>
-  <a href="#" class="header-toggle template-arrow-up"></a>
-</div>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.2">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="keywords" content="{{ site.keywords }}" />
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="icon" href="{{ "images/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon" />
 
-<!-- Header -->
-<div class="header-container sticky">
-    <div class="vertical-align-table column-1-1">
-      <div class="header clearfix">
-        <div class="logo vertical-align-cell">
-          <h1>
-            <a href="index.html#top" title="David's Mobile Auto Repair">
-              <img src="/images/logo.svg" alt="logo"/>
-            </a>
-          </h1>
-        </div>
-        <a href="#" class="mobile-menu-switch vertical-align-cell">
-          <span class="line"></span>
-          <span class="line"></span>
-          <span class="line"></span>
-        </a>
+  <!--slider revolution-->
+  <link rel="stylesheet" type="text/css" href="{{ "rs-plugin/css/settings.css" | prepend: site.baseurl }}" media="screen" />
+  
+  <!--style-->
+  <link rel="stylesheet" type="text/css" href="{{ "css/reset.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "css/superfish.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "css/prettyPhoto.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "css/jquery.qtip.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "css/style.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "css/animations.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "css/responsive.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "css/odometer-theme-default.css" | prepend: site.baseurl }}">
 
-        <div class="menu-container clearfix vertical-align-cell">
-          <nav>
-            <ul class="sf-menu">
-              {% for item in site.data.nav %}
-                <li><!-- TODO: Dynamically add class="selected" when appropriate -->
-                  <a href="{{ item.path }}">{{ item.name }}</a>
-                </li>
-              {% endfor %}
-            </ul>
-          </nav>
-          <div class="mobile-menu-container">
-            <div class="mobile-menu-divider"></div>
-            <nav>
-              <ul class="mobile-menu collapsible-mobile-submenus">
-                {% for item in site.data.nav %}
-                  <li><!-- TODO: Dynamically add class="selected" when appropriate -->
-                    <a href="{{ item.path }}">{{ item.name }}</a>
-                  </li>
-                {% endfor %}
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!--fonts-->
+  <link rel="stylesheet" type="text/css" href="{{ "fonts/streamline-small/style.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "fonts/template/styles.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "fonts/social/styles.css" | prepend: site.baseurl }}">
+  
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+</head>

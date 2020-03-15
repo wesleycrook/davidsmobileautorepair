@@ -1,0 +1,59 @@
+<!-- Top Bar -->
+<div class="header-top-bar-container clearfix">
+  <div class="header-top-bar">
+    <ul class="contact-details clearfix">
+      <li class="template-phone">
+        <a id="header__phone" href="tel:5555555555">555-555-5555</a>
+      </li>
+      <li class="template-mail">
+        <a id="header__email" href="mailto:email@example.com">email@example.com</a>
+      </li>
+      <li class="template-clock">Mon - Sat: 7:30am - 5:30pm</li>
+    </ul>
+  </div>
+  <a href="#" class="header-toggle template-arrow-up"></a>
+</div>
+
+<!-- Header -->
+<div class="header-container sticky">
+    <div class="vertical-align-table column-1-1">
+      <div class="header clearfix">
+        <div class="logo vertical-align-cell">
+          <h1>
+            <a href="index.html#top" title="David's Mobile Auto Repair">
+              <img src="/images/logo.svg" alt="logo"/>
+            </a>
+          </h1>
+        </div>
+        <a href="#" class="mobile-menu-switch vertical-align-cell">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </a>
+
+        <div class="menu-container clearfix vertical-align-cell">
+          <nav>
+            <ul class="sf-menu">
+              {% for item in site.data.nav %}
+                <li>
+                  <a href="{{ item.path }}">{{ item.name }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </nav>
+          <div class="mobile-menu-container">
+            <div class="mobile-menu-divider"></div>
+            <nav>
+              <ul class="mobile-menu collapsible-mobile-submenus">
+                {% for item in site.data.nav %}
+                  <li>
+                    <a href="{{ item.path }}">{{ item.name }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
