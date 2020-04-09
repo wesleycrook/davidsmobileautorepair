@@ -779,67 +779,7 @@ ul.sf-menu li li:first-child li:first-child:hover ul, ul.sf-menu li li:first-chi
 	color: #A4AAB3;
 	font-size: 11px;
 }
-/* --- body styles --- */
-body.image-1
-{
-	background: url("../images/backgrounds/images/image_1.jpg") fixed no-repeat center 0;
-}
-body.image-2
-{
-	background: url("../images/backgrounds/images/image_2.jpg") fixed no-repeat center 0;
-}
-body.image-3
-{
-	background: url("../images/backgrounds/images/image_3.jpg") fixed no-repeat center 0;
-}
-body.image-4
-{
-	background: url("../images/backgrounds/images/image_4.jpg") fixed no-repeat center 0;
-}
-body.image-5
-{
-	background: url("../images/backgrounds/images/image_5.jpg") fixed no-repeat center 0;
-}
-body.pattern-1
-{
-	background: url("../images/backgrounds/patterns/pattern_1.png") fixed;
-}
-body.pattern-2
-{
-	background: url("../images/backgrounds/patterns/pattern_2.png") fixed;
-}
-body.pattern-3
-{
-	background: url("../images/backgrounds/patterns/pattern_3.png") fixed;
-}
-body.pattern-4
-{
-	background: url("../images/backgrounds/patterns/pattern_4.png") fixed;
-}
-body.pattern-5
-{
-	background: url("../images/backgrounds/patterns/pattern_5.png") fixed;
-}
-body.pattern-6
-{
-	background: url("../images/backgrounds/patterns/pattern_6.png") fixed;
-}
-body.pattern-7
-{
-	background: url("../images/backgrounds/patterns/pattern_7.png") fixed;
-}
-body.pattern-8
-{
-	background: url("../images/backgrounds/patterns/pattern_8.png") fixed;
-}
-body.pattern-9
-{
-	background: url("../images/backgrounds/patterns/pattern_9.png") fixed;
-}
-body.pattern-10
-{
-	background: url("../images/backgrounds/patterns/pattern_10.png") fixed;
-}
+
 body.overlay .background-overlay
 {
 	display: block;
@@ -851,7 +791,7 @@ body.overlay .background-overlay
 	width: 100%;
 	height: 100%;
 	top: 0;
-	background: url("../images/backgrounds/images/overlay.png");
+	background: url("../images/overlay.png");
 	z-index: 1;
 }
 /* --- page --- */
@@ -1921,18 +1861,14 @@ body .type-small .testimonials-list .ornament.empty-circle::before
 /* --- backgrounds --- */
 .background-1
 {
-	background-image: url('../images/samples/870x580/image_05.jpg');
+	background-image: url('../images/brakes.jpg');
 	background-size: cover;
 	background-position: center;
 }
 /* --- parallax --- */
 .parallax-1
 {
-	background-image: url('../images/samples/1920x1200/image_01.jpg');
-}
-.parallax-2
-{
-	background-image: url('../images/samples/1920x1200/image_02.jpg');
+	background-image: url('../images/alternator.jpg');
 }
 .parallax,
 .parallax h2,
@@ -2537,38 +2473,7 @@ span.number.sign
 	width: 90px;
     height: 90px;
 }
-.avatar-1
-{	
-	background-image: url("../images/samples/90x90/users/image_01.png");
-}
-.avatar-2
-{
-	background-image: url("../images/samples/90x90/users/image_02.png");
-}
-.avatar-3
-{
-	background-image: url("../images/samples/90x90/users/image_03.png");
-}
-.avatar-4
-{
-	background-image: url("../images/samples/90x90/users/image_04.png");
-}
-.avatar-5
-{
-	background-image: url("../images/samples/90x90/users/image_05.png");
-}
-.avatar-6
-{
-	background-image: url("../images/samples/90x90/users/image_06.png");
-}
-.avatar-7
-{
-	background-image: url("../images/samples/90x90/users/image_07.png");
-}
-.avatar-8
-{
-	background-image: url("../images/samples/90x90/users/image_08.png");
-}
+
 .posted-by h6
 {
 	letter-spacing: 0;
