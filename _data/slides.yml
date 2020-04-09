@@ -1,15 +1,15 @@
 - count: 1
-  filename: image_02.jpg
+  filename: slider-tires.jpg
   icon: sl-small-truck-tow
   title: CAN'T DRIVE IT TO THE SHOP?
   description: We provide mechanical repairs to your vehicle on site...home or business. We come to you so you don't have to worry about taking it to the shop.
 - count: 2
-  filename: image_01.jpg
+  filename: slider-under-hood.jpg
   icon: sl-small-car-oil
   title: GET YOUR VEHICLE FIXED RIGHT
   description: With over 40 years of experience, we'll fix your vehicle right the first time.
 - count: 3
-  filename: image_03.jpg
+  filename: slider-check-oil.jpg
   icon: sl-small-car-checklist
   title: EXPERT TECHNICIANS, COMPETITIVE PRICES
   description: We are committed to earning your trust by providing the expertise and value you expect.
