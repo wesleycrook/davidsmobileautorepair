@@ -14,9 +14,9 @@ $(function() {
  * @param elementId 
  */
 const obfuscateEmailAddress = (elementId) => {
-    // TODO: Use javascript to decode the email address
+    // Use javascript to decode the email address - check https://v2.cryptii.com/text/htmlentities when changes are needed.
     let emailElement = document.getElementById(elementId);
-    let emailAddress = "&#100;&#097;&#118;&#105;&#100;&#115;&#109;&#111;&#098;&#105;&#108;&#101;&#097;&#117;&#116;&#111;&#114;&#101;&#112;&#097;&#105;&#114;&#064;&#121;&#097;&#104;&#111;&#111;&#046;&#099;&#111;&#109;"
+    let emailAddress = "&#109;&#111;&#98;&#105;&#108;&#101;&#97;&#117;&#116;&#111;&#114;&#101;&#112;&#97;&#105;&#114;&#115;&#101;&#114;&#118;&#105;&#99;&#101;&#64;&#121;&#97;&#104;&#111;&#111;&#46;&#99;&#111;&#109;"
         
     // Set the Human-Readable email address to the encoded version, as it will be translated by the browser.
     emailElement.innerHTML = emailAddress;
